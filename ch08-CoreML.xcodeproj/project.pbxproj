@@ -13,6 +13,7 @@
 		26988CFA245981D300924506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26988CF8245981D300924506 /* Main.storyboard */; };
 		26988CFC245981D400924506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26988CFB245981D400924506 /* Assets.xcassets */; };
 		26988CFF245981D400924506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26988CFD245981D400924506 /* LaunchScreen.storyboard */; };
+		26988D072459889400924506 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26988D062459889400924506 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		26988CFB245981D400924506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26988CFE245981D400924506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26988D00245981D400924506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26988D062459889400924506 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				26988CF2245981D300924506 /* AppDelegate.swift */,
 				26988CF4245981D300924506 /* SceneDelegate.swift */,
+				26988D062459889400924506 /* Inceptionv3.mlmodel */,
 				26988CF6245981D300924506 /* ViewController.swift */,
 				26988CF8245981D300924506 /* Main.storyboard */,
 				26988CFB245981D400924506 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26988CF7245981D300924506 /* ViewController.swift in Sources */,
+				26988D072459889400924506 /* Inceptionv3.mlmodel in Sources */,
 				26988CF3245981D300924506 /* AppDelegate.swift in Sources */,
 				26988CF5245981D300924506 /* SceneDelegate.swift in Sources */,
 			);
